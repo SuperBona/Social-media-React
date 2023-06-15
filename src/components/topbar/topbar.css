@@ -1,0 +1,101 @@
+.topbarContainer {
+  height: 50px;
+  width: 100vw;
+  background: var(--blue);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.topbarLeft {
+  flex: 3;
+}
+.topbarCenter {
+  flex: 5;
+}
+.topbarRight {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: var(--white);
+}
+
+/* content divided in 12 parts; 3 of them for left, 5 for center, 4 for right */
+
+.topbarImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 24px;
+  margin-left: 20px;
+  font-weight: bold;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.searchbar {
+  width: 100%;
+  height: 30px;
+  background-color: var(--white);
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.searchIcon {
+  font-size: 20px !important;
+  margin-left: 10px !important;
+}
+
+/* use !important because icons come from a library, material ui */
+
+.searchInput {
+  border: none;
+  width: 70%;
+}
+
+/* remove outline when interacting */
+.searchInput:focus {
+  outline: none;
+}
+
+.topbarLink {
+  margin-right: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.topbarIcons {
+  display: flex;
+}
+
+.topbarIconItem {
+  margin-right: 15px;
+  cursor: pointer;
+  position: relative;
+}
+
+/* number will be absolute */
+.topbarIconBadge {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  background-color: var(--red);
+  border-radius: 50%;
+  color: var(--white);
+  top: -5px;
+  right: -5px;
+  /* center numbers */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}

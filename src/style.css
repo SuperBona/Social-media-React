@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+:root {
+  --blue: #1877f2;
+  --white: #fff;
+  --black: #000000;
+  --red: #ee0d0d;
+  --yellow: #eca72c;
+  --orange: #ee5622;
+  --darkGreen: #1c6449;
+  --wine: #823038;
+  --azure: #6699cc;
+  /* coolors test */
+  --cornellRed: #bd1e1e;
+  --amaranthPink: #dd99bb;
+  --mintGreen: #e9fff9;
+  --tiffanyBlue: #73c1c6;
+  --lightBlue: #96c3ce;
+  --electricIndigo: #6320ee;
+  --magnolia: #f8f0fb;
+  --pinkLavender: #e5beed;
+  --tropicalIndigo: #9593d9;
+  --vistaBlue: #7c90db;
+  --violet: #736b92;
+  --roseTaupe: #7d5c65;
+}

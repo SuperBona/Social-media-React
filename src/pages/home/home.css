@@ -1,0 +1,10 @@
+.homeContainer {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  width: 100%;
+}
+
+/* .homeContainer{
+    display: flex;
+    width: 100%;
+} */
