@@ -1,5 +1,5 @@
 import './sidebar.css'
-import SidebarFriends from './sidebarFriends'
+import SidebarFriends from './SidebarFriends'
 import SidebarList from './SidebarList'
 import { Users } from '../../data'
 
