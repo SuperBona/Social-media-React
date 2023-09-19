@@ -13,7 +13,7 @@ export default function Share() {
             alt=''
           />
           <input
-            placeholder="What's in you mind, Ciro?"
+            placeholder="What's on your mind, Ciro?"
             className='shareInput'
           />
         </div>
